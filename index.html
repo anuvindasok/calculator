@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <main>
+      <div class="calcu">
+         <div class="calculator">
+           <div class="heading">
+           <h1>CALCULATOR</h1>
+         </div>
+         <div class="bottom">
+           <form name="form">
+             <div class="first">
+             <input type="text1" name="textview" placeholder="0">
+             <div class="second">
+               <input type="button" value="9" onclick="insert(9)">
+               <input type="button" value="8" onclick="insert(8)">
+               <input type="button" value="7" onclick="insert(7)">
+               <input type="button" value="+" onclick="insert('+')">
+               <br>
+               <input type="button" value="6" onclick="insert(6)">
+               <input type="button" value="5" onclick="insert(5)">
+               <input type="button" value="4" onclick="insert(4)">
+               <input type="button" value="-" onclick="insert('-')">
+               <br>
+               <input type="button" value="3" onclick="insert(3)">
+               <input type="button" value="2" onclick="insert(2)">
+               <input type="button" value="1" onclick="insert(1)">
+               <input type="button" value="*" onclick="insert('*')">
+               <br>
+               <input type="button" value="0" onclick="insert(0)">
+               <input type="button" value="%" onclick="insert('%')">
+               <input type="button" value="." onclick="insert('.')">
+               <input type="button" value="/" onclick="insert('/')">
+               <div class="thired">
+                 <input type="button" value="C" onclick="clean()">
+                 <input type="button" value="=" onclick="equal()">
+               </div>
+             </div>
+           </div>
+           </form>
+         </div>
+         <div class="copy">
+           <p> &copy; 2018: Designed by anuvind_asok </p>
+         </div>
+       </div>
+      </div>
+    </main>
+     <script src="script.js"></script>
+  </body>
+</html>

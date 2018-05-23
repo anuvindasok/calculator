@@ -1,0 +1,114 @@
+
+*{
+  margin:0px;
+  padding:0px;
+}
+  .calcu{
+  width:100%;
+}
+.calculator{
+  border:5px solid grey;
+  width:500px;
+  margin:0 auto;
+}
+.heading h1{
+  color:white;
+  padding:25px;
+  background-color:#1e1e1e;
+}
+.bottom{
+  background-color:#34323d;
+}
+form{
+width:500px;
+}
+ .first input{
+   text-align:right;
+   background-color:#d6e1e3;
+  width:460px;
+  margin:0 auto;
+  font-size:50px;
+  margin:20px 20px;
+}
+.second{
+  text-align: center;
+}
+.second input{
+  cursor:pointer;
+  text-align: center;
+  width:60px;
+  height:60px;
+
+}
+.thired input{
+  cursor:pointer;
+  width: 164px;
+  height:50px;
+}
+.copy{
+  width:500px;
+  height:20px;
+  background-color:#243962;
+  text-align: center;
+}
+.copy p{
+  color:white;
+}
+
+@media only screen and (max-width: 480px) {
+.calcu{
+  width:100%;
+}
+.calculator{
+  border:5px solid grey;
+  width:96%;
+  margin:0 auto;
+}
+.heading h1{
+  color:white;
+  padding:5px;
+  background-color:#1e1e1e;
+}
+.bottom{
+  background-color:#34323d;
+}
+form{
+  width:100%;
+}
+
+ .first input{
+  width:90%;
+  margin:0 auto;
+  font-size:40px;
+  margin:15px 15px;
+}
+.second{
+  width:100%;
+  text-align: center;
+}
+.second input{
+  cursor:pointer;
+  text-align: center;
+  width:50px;
+  height:50px;
+
+}
+.thired input{
+  cursor:pointer;
+  width:143px;
+  height:50px;
+}
+.copy{
+  padding-top:5px;
+  width:100%;
+  height:20px;
+  background-color:#243962;
+  text-align: center;
+}
+.copy p{
+  width:100%;
+  margin: 0 auto;
+  color:white;
+}
+
+}
